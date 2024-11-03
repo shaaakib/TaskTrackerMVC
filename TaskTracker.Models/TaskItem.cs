@@ -20,7 +20,7 @@ namespace TaskTracker.Models
         InProgress,
         Completed
     }
-    public class Task
+    public class TaskItem
     {
         [Key]
         public int Id { get; set; }
